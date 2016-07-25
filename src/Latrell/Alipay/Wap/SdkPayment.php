@@ -425,21 +425,5 @@ class SdkPayment
         return $responseText;
     }
 
-    public function buildForexCnyRefundUrl($outReturnNo, $outTradeNo, $rmbAmount, $gmtReturn, $reason = '', $currency = 'USD')
-    {
-        $params = [
-            "service" => "forex_refund",
-            "partner" => $this->partner,
-            "_input_charset" => "utf-8",
-            "out_return_no" => $outReturnNo,
-            "out_trade_no" => $outTradeNo,
-            "return_rmb_amount" => $rmbAmount,
-            "currency" => $currency,
-            "gmt_return" => $gmtReturn,
-            "reason" => $reason
-        ];
 
-        $para = $this->buildRequestPara($params);
-        return self::GateWayNew . $this->createLinkstringUrlencode($para);
-    }
 }
