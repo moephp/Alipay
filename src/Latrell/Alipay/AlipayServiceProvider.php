@@ -1,5 +1,5 @@
 <?php
-namespace Latrell\Alipay;
+namespace Moephp\Alipay;
 
 use Illuminate\Support\ServiceProvider;
 

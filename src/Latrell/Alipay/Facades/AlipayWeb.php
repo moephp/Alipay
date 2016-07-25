@@ -1,6 +1,6 @@
 <?php
 
-namespace Latrell\Alipay\Facades;
+namespace Moephp\Alipay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Latrell\Alipay\Mobile;
+namespace Moephp\Alipay\Mobile;
 
 class SdkPayment
 {
