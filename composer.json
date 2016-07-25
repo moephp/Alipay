@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Latrell\\Alipay\\": "src/Latrell/Alipay/"
+            "Moephp\\Alipay\\": "src/Moephp/Alipay/"
         }
     },
     "minimum-stability": "stable"
